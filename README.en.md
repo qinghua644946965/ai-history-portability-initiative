@@ -1,75 +1,80 @@
-# Portable Access to AI Conversation and Task Data
+# Let AI Interactions Truly Belong to Users
+
+## A User Initiative for Portable Access to AI Conversation and Task Data
 
 [中文](README.md) | **English**
 
-**Initiative Draft v0.1 · A user initiative / Open discussion draft**
+**Initiative Draft v0.1 · Revised draft · A user initiative / Open discussion**
 
 **Ownership · Portability · Interoperability**
 
-**We call on AI service providers to enable ongoing retrieval of users' own conversation and task data through user-authorized, read-only access with pagination and stable incremental positioning.**
+## 1. Reported experiences: intelligent AI, manually retrieved histories
 
-## 1. Starting from reported experiences: intelligent AI, manually moved histories
+I regularly use AI for work, technical problems, and ideas. This initiative began with a straightforward concern: I can already ask AI to help me write software, analyze materials, and work through proposals. Why is continuously retrieving the history of those interactions still so difficult?
 
-This initiative comes from a user who regularly uses AI for work, technical problems, and ideas. The immediate concern is a straightforward contrast in that experience:
+I have reported two specific experiences: difficulty locating an earlier discussion about “FLV 无声音” (“FLV has no sound”), and differences in search results for “表格” (the Chinese word for “table”) in Codex under different operations or history-loading states. **Original evidence and verification are still pending for both cases.** This draft does not confirm specific dates, client versions, result counts, or complete operating procedures, nor does it attribute differences to any internal search mechanism. See the [evidence register](evidence/README.en.md) for the current status.
 
-> I can already ask AI to help me write software, analyze materials, and discuss complex problems. But if continuously retrieving my interaction history still means “settings → request an export → wait → download an archive → unpack it → process it myself,” managing that history still amounts to moving archives by hand.
+These experiences drew my attention to more than whether a particular search worked well: can users reliably obtain their own histories and save and search them independently? The cases do not establish that data was lost and cannot represent all platforms. They are starting points for raising the question.
 
-When AI can contribute to complex work while users must repeatedly export files to preserve their histories, a gap opens between intelligent capabilities and convenient data access. This workflow illustrates the difficulty this initiative addresses; it is not a blanket description of every platform's export steps or available interfaces.
+When retrieving records repeatedly requires “settings → request an export → wait → download an archive → unpack it → process it myself,” the contrast becomes especially clear: **AI helps with complex work, yet retrieving my own history still requires moving it by hand.** This workflow illustrates the export experience the initiative addresses, rather than describing every product's steps.
 
-Users want to continuously preserve, consult, and organize their own histories. Whatever they choose to do with that data later, a simple question comes first: **Why shouldn't users have a stable, read-only interface for continuously retrieving interaction records they are entitled to access?**
+## 2. The problem: valuable discussions require ongoing user control
 
-Two specific experiences reported by the initiator provide starting points. One concerns searching for “表格” (the Chinese word for “table”) in Codex, with reported differences in search results under different operations or history-loading states. **Evidence and verification are still pending for this case.** This draft does not confirm result counts or attribute any difference to searching only loaded content, index coverage, or another internal mechanism. The other concerns trying to recover an earlier discussion about “FLV 无声音” (“FLV has no sound”). **Original evidence is also pending for this case.** This draft does not confirm the date, client version, search steps, or final outcome.
+The final answer is only part of an AI conversation. Why option A was rejected, under what conditions option B holds, which challenge changed a judgment, and what remains unresolved often stay within the discussion itself. Saving only the final document may fail to preserve how that thinking developed.
 
-These are accounts reported by a user, not independently reproduced product defects. They do not establish that data was lost or that a provider deliberately obstructed access. The question they raise remains worth discussing: if records exist and the user is entitled to access them, can the user save and index those records independently, and reliably return to the original context later? See the [evidence register](evidence/README.en.md) for evidence status and what still needs to be collected.
+As conversations and tasks accumulate, relying on memory to find titles, keywords, and discussion locations adds to the burden of maintaining a history. Records may still be stored on a platform without being reliably discoverable and usable by the user. A problem affecting heavy users today may affect more people as AI becomes more deeply involved in everyday work. It deserves discussion now.
 
-## 2. The problem: records kept on a platform are not necessarily usable over the long term
+Better search certainly helps. But search concerns how a platform helps users find things; data access concerns whether users can obtain records and process them independently. Even someone using only one platform may want independent backups, an index, or a long-term archive. This need should not depend on adopting a particular approach to knowledge management.
 
-AI conversations often contain more than final answers. They also record how a question was clarified, why an option was rejected, how constraints changed, and how a task was ultimately completed. Copying only the conclusion may lose the conditions under which a judgment was made. Keeping only a summary can make it difficult to revisit omissions and misunderstandings.
-
-As conversations and tasks accumulate, users need to remember where a discussion happened, its title, and useful keywords. Search within a platform can help users find records again, but they may still want to make their own backups, build an index, archive by project, or revisit how a judgment was reached. Even using only one platform with excellent search does not eliminate the need to preserve and organize data independently.
-
-This initiative concerns whether users can continuously retrieve conversation and task data they are entitled to access and decide how to use it afterward. That capability should stand on its own, without requiring users to build a knowledge base or adopt a particular way of working with AI. Users who simply want readable, searchable records should also have practical options.
+I want to promote a basic capability users should have: **continuously, reliably, and programmatically retrieving AI conversation and task data they are entitled to access.** How to store, analyze, and organize that data afterward is the user's choice.
 
 ## 3. Why a one-time export is not enough
 
-A one-time export is valuable for backup, migration, and archiving. The difficulty is that ongoing AI use keeps generating new records and may also change existing content. If every update requires requesting, downloading, and unpacking a complete archive, then comparing the differences manually, maintaining an archive becomes repetitive work.
+A one-time export is valuable for backups, migration, and archiving. But “being able to take data away once” and “being able to keep retrieving one's own data” address different problems.
 
-A full snapshot answers “What did I retrieve this time?” Continuous synchronization also needs to answer “What has been added or changed since last time?”, “Where can I resume after an interruption?”, and “What falls outside the returned data?” Without stable resume points and a clear description of coverage, user-side tools struggle to identify duplicates, omissions, and whether synchronization is complete.
+AI use does not stop on export day. Today's new discussions, tomorrow's task progress, and edits to existing records gradually make the last archive outdated. If every update requires requesting and downloading a full archive, comparing differences, and removing duplicates, ongoing maintenance becomes repeated manual work.
 
-We therefore call for data access suited to ongoing use alongside existing export options. It need not be real-time or promise unlimited throughput; reasonable delays and rate limits are acceptable. Those limits should be public and understandable so users can schedule their next synchronization instead of continually moving records by hand. This is a statement of desired capabilities, not a blanket claim about the features of all existing products.
+Simply telling users that export is already available therefore leaves several questions about ongoing use unanswered: which records should be retrieved since last time? Where should retrieval resume after an interruption? How can users avoid processing the entire history from scratch each time?
 
-## 4. Minimum requests: a stable, ongoing way to retrieve data
+We ask for an official access point suited to ongoing retrieval alongside existing export options. It need not be real-time or allow unlimited frequency; users can retrieve data within the frequency permitted by the provider. What matters is an ongoing, recoverable, understandable path that lets users arrange how to preserve their own histories.
 
-**AI can be highly advanced; the data interface can remain simple.** We only ask for a stable way to continuously retrieve our own data. The basic process can be straightforward: user authorization → read-only, paginated retrieval → save a cursor or checkpoint → synchronize incrementally next time.
+## 4. Minimum requests: a stable way for users to retrieve their data
 
-We encourage AI service providers to progressively offer these minimum capabilities:
+**AI can be highly advanced; the data interface can remain simple.**
 
-1. **User authorization.** Users can explicitly choose the scope of access and the receiving tool, and revoke future access. Authorization should be understandable. Retrieving records should not be treated as consent to unrestricted secondary use.
-2. **Read-only access.** Users or their authorized tools can programmatically read conversation and task records the user is entitled to access. Coverage should include visible content, necessary metadata, and relationships between records needed to understand the interaction. Support for attachments, artifacts, and visible tool results, as well as gaps in that support, should be clearly described.
-3. **Pagination.** Long histories can be read in batches, with explicit continuation or completion markers so a single response is not mistaken for the entire history.
-4. **Stable incremental positioning.** Cursors, checkpoints, or equivalent capabilities allow synchronization to resume, retry, and identify changes. Providers should explain whether updates and deletion markers are included, and how to recover when a saved position becomes invalid.
-5. **Understandable operating rules.** Providers document data coverage, formats, identifier rules, retention periods, rate limits, and error handling, and explain how incompatible changes will be communicated.
+We call on AI service providers to offer user-authorized, read-only data access, with minimum requests limited to the following:
 
-These requests describe outcomes users need, without prescribing endpoint names or uniform fields. Providers can start with read-only access to a limited scope, while honestly describing gaps. Providers choose their internal implementation; user-side tools handle adaptation, indexing, and organization.
+1. **User authorization and access boundaries.** Users or tools they explicitly authorize can read only conversation and task records the user is already entitled to access. Users can revoke authorization for future access.
+2. **Pagination.** Long histories can be retrieved in batches, with clear indications of how to continue and when retrieval is complete.
+3. **Stable incremental positioning.** Cursors, checkpoints, or equivalent mechanisms let users continue retrieval from a previous position without fetching the full history from scratch every time. Providers explain how to recover when that position becomes invalid.
+4. **Provider control over implementation and rate limits.** Providers choose response formats, rate limits, resource scheduling, and implementation details. Users schedule retrieval within those limits. Providers clearly explain what data can be retrieved and what usage restrictions apply.
 
-## 5. Explicit boundaries: keeping the minimum requests practical
+The basic process we ask for is: **authorize → retrieve read-only pages → save progress → continue next time.** Providers can retain their native data structures, with user-side tools handling adaptation. Specific engineering questions belong in the [technical notes](technical-notes/README.en.md), without expanding this draft into a protocol specification.
 
-This is **Initiative Draft v0.1**, not a white paper, protocol standard, certification specification, or established industry consensus. It does not require uniform internal schemas, databases, Memory systems, knowledge graphs, or agent architectures. Nor does it require real-time delivery, webhooks, a uniform polling frequency, or fixed performance targets.
+## 5. Explicit boundaries: enable retrieval and leave subsequent use to users
 
-Access is limited to data the user is already entitled to access. It excludes model weights, hidden reasoning, internal system prompts, trade secrets, and other users' private content. Records involving multiple participants and third-party materials remain subject to their respective permission boundaries. Providing a way to retrieve data does not mean providers must build users' knowledge bases or permanently retain deleted content.
+This is **Initiative Draft v0.1**, a user initiative and open discussion draft. It is not a white paper, a protocol standard, or established industry consensus. By presenting a practical need, I hope to draw providers' attention and help make ongoing data retrieval an expected product capability.
 
-Users who control their data also need to manage the authorization, storage, and onward sharing practices of receiving tools. Revoking authorization on a platform can prevent future reads, but should not be described as automatically deleting every downloaded copy. Receiving tools should clearly explain how they manage those copies.
+This initiative does not require uniform schemas, JSON fields, databases, or internal architectures. It does not require real-time synchronization, webhooks, fixed polling frequencies, or uniform performance targets. Nor does it require providers to build users' knowledge bases or “digital brains,” or prescribe how records should be organized.
 
-This document proposes product principles and user requests; it makes no legal determination for a particular jurisdiction. Data portability may reduce switching costs and may create tension with incentives to retain users on a platform. These are inferences for discussion, not grounds for concluding that a particular provider deliberately locks users in or breaks the law.
+Even a user who only wants to save the original text has reason to make this request. Personal data hubs and other ideas for subsequent use are kept separately in the [background material](background/README.en.md); they are not prerequisites for this initiative.
+
+Enabling access does not mean making user data public. The scope excludes other users' private content, model weights, hidden reasoning, internal system prompts, and trade secrets. Users need to manage the permissions they give receiving tools to store and reshare records. Revoking future access does not automatically delete copies already downloaded.
+
+This document advocates user control over data. It does not conclude that a particular provider has broken the law or deliberately obstructed migration. Observations of product behavior, inferences about internal mechanisms, and analyses of commercial incentives should be presented separately.
 
 ## 6. Principles and closing
 
-**Ownership** means users have meaningful control over interaction histories they are entitled to access; it does not make a blanket claim about intellectual property ownership of every record. **Portability** means users can continuously bring records to systems of their choice. **Interoperability** means users can authorize different tools and models to use those histories without waiting for every platform to adopt the same internal structure.
+**Ownership:** Users should have meaningful control over interaction histories they are entitled to access. This is not a blanket assertion of intellectual property ownership over all content.
 
-We want users to choose platforms for the value of their products. Whether users stay with one service for years or later switch platforms, they should be able to continuously preserve and use their own records. What they do with retrieved data is their choice; continuity in thought and work should remain in users' hands.
+**Portability:** Users should be able to continuously bring their records to systems of their choice.
+
+**Interoperability:** Users should be able to authorize other tools to use those records without waiting for every platform to adopt the same internal structure.
+
+Users may stay with one platform or switch products. Either way, preserving and using their histories should not depend solely on a single path provided by the platform. Good products can earn users' continued use, while users retain the choice to retrieve their own records.
 
 **AI can change. Users' cognitive histories should not be lost when they switch platforms.**
 
 **Data stays with the user. Intelligence competes above it.**
 
-We welcome verifiable cases with sensitive information removed, and invite providers and developers to discuss costs, limitations, and feasible approaches. We begin with a limited request: enable users to continuously retrieve their AI conversation and task data through authorized, read-only access with pagination and stable incremental positioning.
+I do not claim to have designed the future of personal knowledge systems. The action I want to encourage is clear: **AI providers should offer stable, ongoing access for retrieving users' own conversation and task data.** Users are welcome to contribute verifiable experiences, and providers and developers are invited to discuss costs and feasible approaches, so this minimum capability can gradually become a shared expectation.

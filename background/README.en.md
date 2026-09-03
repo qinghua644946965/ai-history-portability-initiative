@@ -4,7 +4,7 @@
 
 This directory separately records the initiator's personal plans for using retrieved data and related inferences. These are distinct from the public initiative: the initiative calls for ongoing access to one's own data, without relying on or presupposing a need for collaboration among multiple models.
 
-## User motivation
+## Personal plans after retrieving data
 
 Bring the user's AI conversation and task records into a data hub under the user's control, authorize different AI systems to retrieve, analyze, validate, or implement as needed, and archive the results. The user decides how models divide the work; this document does not evaluate or rank model capabilities.
 
@@ -18,4 +18,4 @@ This version does not claim that all platforms lack comparable interfaces, nor d
 
 ## Editorial principles
 
-Keep the main text centered on user needs and retain its six-part structure. When evidence is insufficient, reduce the strength of claims rather than filling factual gaps with an industry narrative. The document remains a user initiative. Any future development into a technical specification should separately define its scope and review process.
+Retain the structure settled through the initial draft and subsequent feedback: reported experiences → problem → why a one-time export is not enough → minimum requests → explicit boundaries → principles and closing. Use the contrast between advanced AI and manually retrieved histories to help readers understand the problem, while keeping the focus on encouraging providers to enable ongoing data retrieval. Do not expand the core requests, invent new concepts, or make personal plans for subsequent use the main narrative. When evidence is insufficient, reduce the strength of claims rather than filling factual gaps with an industry narrative. The document remains a user initiative. Any future development into a technical specification should separately define its scope and review process.

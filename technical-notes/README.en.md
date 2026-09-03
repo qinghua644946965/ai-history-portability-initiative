@@ -2,7 +2,7 @@
 
 [中文](README.md) | **English**
 
-Companion to Initiative Draft v0.1. This directory records questions for discussion. It is not a protocol, a standard, or a description of existing product capabilities.
+Companion to Initiative Draft v0.1. This directory records questions for discussion. It is not a protocol, a standard, or a description of existing product capabilities. The details below help clarify feasibility; they are not additional requirements beyond the minimum requests in the main text. Providers can explain coverage of updates, deletions, attachments, and other complex cases, with discussion proceeding in stages.
 
 ## Minimum capabilities and implementation choices left open
 
