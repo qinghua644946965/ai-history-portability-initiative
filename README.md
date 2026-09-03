@@ -1,5 +1,7 @@
 # AI 会话与任务数据可携带访问能力
 
+**中文** | [English](README.en.md)
+
 **Initiative Draft v0.1 · 用户倡议 / 开放讨论稿**
 
 **Ownership · Portability · Interoperability**
