@@ -1,0 +1,7 @@
+# Private evidence and local credentials
+.env
+.env.*
+*.pem
+*.key
+evidence/private/
+work/
