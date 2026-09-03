@@ -2,7 +2,7 @@
 
 [中文](README.md) | **English**
 
-This directory adds context about the initiator's motivation. It does not expand the minimum requests in the public initiative.
+This directory separately records the initiator's personal plans for using retrieved data and related inferences. These are distinct from the public initiative: the initiative calls for ongoing access to one's own data, without relying on or presupposing a need for collaboration among multiple models.
 
 ## User motivation
 

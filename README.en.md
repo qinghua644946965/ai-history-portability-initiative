@@ -6,9 +6,17 @@
 
 **Ownership · Portability · Interoperability**
 
-## 1. Reported experiences: more than an answer to recover
+**We call on AI service providers to enable ongoing retrieval of users' own conversation and task data through user-authorized, read-only access with pagination and stable incremental positioning.**
 
-This initiative comes from a practical need expressed by a user of multiple AI services: to continuously retrieve conversations and task records scattered across products into a data hub under the user's control, then make them available to different models as needed. Different AI systems can help with retrieval, analysis, critique, and implementation, without the user repeatedly moving and explaining earlier thinking.
+## 1. Starting from reported experiences: intelligent AI, manually moved histories
+
+This initiative comes from a user who regularly uses AI for work, technical problems, and ideas. The immediate concern is a straightforward contrast in that experience:
+
+> I can already ask AI to help me write software, analyze materials, and discuss complex problems. But if continuously retrieving my interaction history still means “settings → request an export → wait → download an archive → unpack it → process it myself,” managing that history still amounts to moving archives by hand.
+
+When AI can contribute to complex work while users must repeatedly export files to preserve their histories, a gap opens between intelligent capabilities and convenient data access. This workflow illustrates the difficulty this initiative addresses; it is not a blanket description of every platform's export steps or available interfaces.
+
+Users want to continuously preserve, consult, and organize their own histories. Whatever they choose to do with that data later, a simple question comes first: **Why shouldn't users have a stable, read-only interface for continuously retrieving interaction records they are entitled to access?**
 
 Two specific experiences reported by the initiator provide starting points. One concerns searching for “表格” (the Chinese word for “table”) in Codex, with reported differences in search results under different operations or history-loading states. **Evidence and verification are still pending for this case.** This draft does not confirm result counts or attribute any difference to searching only loaded content, index coverage, or another internal mechanism. The other concerns trying to recover an earlier discussion about “FLV 无声音” (“FLV has no sound”). **Original evidence is also pending for this case.** This draft does not confirm the date, client version, search steps, or final outcome.
 
@@ -18,9 +26,9 @@ These are accounts reported by a user, not independently reproduced product defe
 
 AI conversations often contain more than final answers. They also record how a question was clarified, why an option was rejected, how constraints changed, and how a task was ultimately completed. Copying only the conclusion may lose the conditions under which a judgment was made. Keeping only a summary can make it difficult to revisit omissions and misunderstandings.
 
-When records are scattered across platforms, users need to remember where a discussion happened, its conversation title, and useful keywords. Search within a platform can help users find records again, but they may still want to search across platforms, archive by project, or ask another model to reanalyze their history. Even excellent search on one platform does not eliminate the need to organize data independently.
+As conversations and tasks accumulate, users need to remember where a discussion happened, its title, and useful keywords. Search within a platform can help users find records again, but they may still want to make their own backups, build an index, archive by project, or revisit how a judgment was reached. Even using only one platform with excellent search does not eliminate the need to preserve and organize data independently.
 
-This initiative concerns whether users can continuously retrieve conversation and task data they are entitled to access and decide how to use it afterward. Personal knowledge bases and collaboration among multiple models are possible uses. Users who simply want readable, searchable records should also have practical options.
+This initiative concerns whether users can continuously retrieve conversation and task data they are entitled to access and decide how to use it afterward. That capability should stand on its own, without requiring users to build a knowledge base or adopt a particular way of working with AI. Users who simply want readable, searchable records should also have practical options.
 
 ## 3. Why a one-time export is not enough
 
@@ -31,6 +39,8 @@ A full snapshot answers “What did I retrieve this time?” Continuous synchron
 We therefore call for data access suited to ongoing use alongside existing export options. It need not be real-time or promise unlimited throughput; reasonable delays and rate limits are acceptable. Those limits should be public and understandable so users can schedule their next synchronization instead of continually moving records by hand. This is a statement of desired capabilities, not a blanket claim about the features of all existing products.
 
 ## 4. Minimum requests: a stable, ongoing way to retrieve data
+
+**AI can be highly advanced; the data interface can remain simple.** We only ask for a stable way to continuously retrieve our own data. The basic process can be straightforward: user authorization → read-only, paginated retrieval → save a cursor or checkpoint → synchronize incrementally next time.
 
 We encourage AI service providers to progressively offer these minimum capabilities:
 
@@ -56,7 +66,7 @@ This document proposes product principles and user requests; it makes no legal d
 
 **Ownership** means users have meaningful control over interaction histories they are entitled to access; it does not make a blanket claim about intellectual property ownership of every record. **Portability** means users can continuously bring records to systems of their choice. **Interoperability** means users can authorize different tools and models to use those histories without waiting for every platform to adopt the same internal structure.
 
-We want users to choose platforms for the value of their products. Users may stay with one service for years or let multiple AI services collaborate. A way to retrieve their data makes both choices easier. Model capabilities will keep changing; continuity in thought and work should remain in users' hands.
+We want users to choose platforms for the value of their products. Whether users stay with one service for years or later switch platforms, they should be able to continuously preserve and use their own records. What they do with retrieved data is their choice; continuity in thought and work should remain in users' hands.
 
 **AI can change. Users' cognitive histories should not be lost when they switch platforms.**
 
