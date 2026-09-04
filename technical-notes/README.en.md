@@ -16,6 +16,10 @@ Companion to Initiative Draft v0.1. This directory records questions for discuss
 
 “Stable” does not mean a cursor never expires; expiration conditions and recovery paths need to be understandable. “Read-only” describes access capabilities, not the inherent trustworthiness of a receiving tool.
 
+## Topic notes
+
+- [Data Accessibility Decay](data-accessibility-decay.en.md): data may remain stored while becoming harder to locate, verify, and continue using.
+
 ## Questions for further discussion
 
 - How can stable identifiers and update timestamps support repeatable reads without creating duplicate records on retry?

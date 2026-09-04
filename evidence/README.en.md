@@ -8,6 +8,7 @@ This directory distinguishes user reports, verifiable observations, and inferenc
 | --- | --- | --- | --- |
 | E-001 | Searching for “表格” (“table”) in Codex | Evidence and verification pending | Match counts, operating conditions, and internal search mechanisms are not confirmed |
 | E-002 | Recovering the “FLV 无声音” (“FLV has no sound”) discussion | Original evidence pending | Date, version, search steps, and final outcome are not confirmed |
+| Case 01 | [Video troubleshooting: the product remains, the process is disconnected](case-01-ai-work-history-retrieval.en.md) | User report documented; original materials pending | Dates and verification steps were supplied by the user; unverified task-location details are not published |
 
 ## E-001: Searching for “表格” in Codex
 
