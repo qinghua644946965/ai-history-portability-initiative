@@ -1,5 +1,7 @@
 # Let AI Interactions Truly Belong to Users
 
+**Positioning: User Initiative / Open Discussion Draft.** See [project positioning and existing work](POSITIONING.md). This project makes no claim of invention priority; proposed benefits remain subject to comparison and validation.
+
 ## A User Initiative for Portable Access to AI Conversation and Task Data
 
 [中文](README.md) | **English**

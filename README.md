@@ -1,5 +1,7 @@
 # 让 AI 交互真正属于用户
 
+**项目定位：User Initiative / Open Discussion Draft。** 参见[定位与现实对照](POSITIONING.md)。本项目不主张首创或概念优先权；拟议收益仍需对照验证。
+
 ## 关于 AI 会话与任务数据可携带访问能力的用户倡议
 
 **中文** | [English](README.en.md)
